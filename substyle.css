@@ -1,0 +1,357 @@
+body {
+  background-color: #ffffff;
+  font-size: 1em;
+  line-height: 1;
+overflow-x: hidden;
+  color: #FFF;
+  font-family: Helvetica;
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 20px;
+
+}
+
+
+ .wrap {
+	
+    border-bottom: 1px;
+		border-bottom-style: solid; 
+		border-width:thin; 
+		border-color: #cccccc;
+
+//this non numerical offset value positions the nav bar up top by default;
+   
+         @media (min-width: 1100px) {
+             bottom: 0; // then this rule comes in at larger widths and overrides whatever the nav inheriting 
+
+     }
+
+}
+
+		line-height: -.5;
+		-webkit-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-ms-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;}
+
+  
+
+h6 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 100%;
+    font-size: 5.9vw;
+    text-transform: lowercase;
+    letter-spacing: .2rem;
+    font-weight: 300;
+    color: #59a3c5;
+    letter-spacing: 2rem;
+    font-weight: 300; 
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;  
+    color: #757575;
+    margin-top: 15px;
+}
+
+
+
+/* Reset */
+/*.text_fun {
+  width:100%;
+
+}*/
+
+#gallery div img {
+  border: solid .8em #cccccc;
+
+ /*  width: 65%;*/
+  max-width:600px;
+  min-width:350px;
+    height: auto;
+  width:100%;
+  margin-bottom: 20px;
+margin-top: 20px;
+
+  }
+
+
+    .about_2 {
+      font-family: 'Raleway', sans-serif;
+    text-transform: none; 
+      line-height: 1.5em; 
+      margin-bottom: 25px;
+      margin-top: 15px;
+     font-size: 1.4rem;
+      font-weight: 400;
+      text-align: left;
+      width:80%;
+      margin: 0 auto;
+    }
+
+
+ 
+
+      .description{
+        
+     font-family: 'Raleway', sans-serif;
+     font-size: 15px;
+    letter-spacing: .2rem;
+    color: #292929;
+    letter-spacing: .05rem;
+    font-weight: 400; 
+    margin-top: 20px;
+          
+    }
+
+ 
+
+      .fixit{
+        
+     font-family: 'Raleway', sans-serif;
+     font-size: 100%;
+    letter-spacing: .2rem;
+    color: #292929;
+    letter-spacing: .05rem;
+    font-weight: 400; 
+    margin-top: 20px;
+    margin-left: auto;
+  margin-right: auto;
+  width:85%;   
+
+    }
+
+
+ 
+.main_title {
+    font-family: 'Raleway', sans-serif;
+  text-transform: lowercase; 
+    color: #59a3c5;
+    font-size: 2.2rem;
+    letter-spacing: .2rem;
+    font-weight: 300; 
+    line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.uber_title {
+    font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; 
+
+    color: #ba3e01;
+    font-size: 2.0rem;
+    letter-spacing: .2rem;
+    font-weight: 300; 
+  margin-top: 20px;
+      margin: 0 auto;
+}
+
+
+
+ol, ul {
+  list-style: none;
+}
+
+/* Box Model */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Containers */
+
+
+
+
+/**************************************
+ADAPTIVE LAYOUT CSS
+**************************************/
+
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+/**************************************
+ADAPTIVE LAYOUT CSS
+**************************************/
+
+p {
+ font-size: 1rem;
+ line-height: 1.2em;
+}
+
+.wrapper {
+  line-height: 1.2em;
+max-width: 900px;
+  min-width: 350px;
+
+
+  margin: 0 auto;
+ 
+
+}
+
+/*  @media screen and (min-width: 450px ) {
+
+.wrapper {
+width:400px;
+}
+
+  @media screen and (min-width: 650px ) {
+
+.wrapper {
+  width:550px;
+}
+
+  @media screen and (min-width: 850px) {
+
+.wrapper {
+  width: 750px;
+  
+  
+}
+    
+*/
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.fade {
+  opacity: none;
+    padding:"3px";
+    background-color:"#ff1744";
+ /* ...  -o-transition:color .2s ease-out, opacity 2s ease-in;
+  -ms-transition:color .2s ease-out, opacity 2s ease-in;
+  -moz-transition:color .2s ease-out, opacity 2s ease-in;
+  -webkit-transition:color .2s ease-out, opacity 2s ease-in;
+  and now override with proper CSS property 
+  transition:color .2s ease-out, opacity 2s ease-in;*/
+
+}
+	
+			
+			
+div.container3 {
+   height: 10em;
+   position: relative }              /* 1 */
+
+
+
+/*------ Mixins -----*/
+@mixin border-radiuses($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
+  -webkit-border-top-right-radius:    $topright;
+  -webkit-border-bottom-right-radius: $bottomright;
+  -webkit-border-bottom-left-radius:  $bottomleft;
+  -webkit-border-top-left-radius:     $topleft;
+
+  -moz-border-radius-topright:        $topright;
+  -moz-border-radius-bottomright:     $bottomright;
+  -moz-border-radius-bottomleft:      $bottomleft;
+  -moz-border-radius-topleft:         $topleft;
+
+  border-top-right-radius:            $topright;
+  border-bottom-right-radius:         $bottomright;
+  border-bottom-left-radius:          $bottomleft;
+  border-top-left-radius:             $topleft;
+
+  -moz-background-clip:    padding; 
+  -webkit-background-clip: padding-box; 
+  background-clip:         padding-box; 
+}
+/*--------- End Mixins ---------*/
+.bg {
+
+ 
+  background-color:lighten(#b2b2b2,5%);
+  @include box-shadow(inset 0px 0px 100px 15px rgba(183,183,183,.75));
+  background-color: rgb(255,255,255);
+  @include filter-gradient(#ffffff, #e8e8e8, horizontal);
+  @include background-image(radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(232,232,232,1) 100%));
+
+}
+
+
+
+/* For devices larger than 400px */
+/*@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+/* For devices larger than 550px */
+/*@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }*/
+
+/* Larger than mobile */
+    /* Self Clearing Goodness */
+
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+.nav_space {
+  margin:20px;
+  padding:1px;
+}
+
+img {
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+}
