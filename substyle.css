@@ -22,7 +22,7 @@ overflow-x: hidden;
 
 //this non numerical offset value positions the nav bar up top by default;
    
-         @media (min-width: 1100px) {
+ @media (min-width: 1100px) {
              bottom: 0; // then this rule comes in at larger widths and overrides whatever the nav inheriting 
 
      }
@@ -68,7 +68,7 @@ p {
   border: solid .8em #cccccc;
 
  /*  width: 65%;*/
-  max-width:500px;
+  max-width:400px;
   min-width:350px;
     height: auto;
   width:100%;
